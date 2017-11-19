@@ -24,7 +24,7 @@ if modulesAvailable == True:
         timestamp = getTimestamp()
         ip = "192.168.1.118"
         port = "4007"
-        data = {"ip": ip, "port": port, "camera": true, "timestamp": timestamp}
+        data = {"ip": ip, "port": port, "camera": "1", "timestamp": timestamp}
 
         while True:
                 if pir.motion_detected:
