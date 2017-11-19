@@ -10,8 +10,7 @@ module.exports = new class Alb3rtSensorResourcesMotion {
         motion.report(request.body);
 
         core.api.responder.send(response, {
-            status: STATUS_CODE.OK,
-            data: {}
+            status: STATUS_CODE.OK
         });
     }
 };
